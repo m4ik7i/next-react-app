@@ -1,0 +1,29 @@
+{
+  "name": "next-react-app",
+  "version": "0.1.0-SNAPSHOT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o build",
+    "start": "next start",
+    "lint": "eslint --ext .js --ext .jsx src"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "9.0.7",
+    "next-images": "^1.2.0",
+    "react": "16.10.2",
+    "react-dom": "16.10.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-config-react-app": "^5.0.2",
+    "eslint-plugin-flowtype": "3.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "1.x"
+  }
+}
