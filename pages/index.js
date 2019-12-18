@@ -2,8 +2,6 @@ import React from 'react';
 import Head from 'next/head';
 import App from '../src/components/App';
 
-import './index.css';
-
 const IndexPage = () => (
   <>
     <Head>

@@ -6,17 +6,18 @@
     "dev": "next dev",
     "build": "next build && next export -o build",
     "start": "next start",
-    "lint": "eslint --ext .js --ext .jsx src"
+    "lint": "eslint --ext .js,.jsx src"
   },
   "dependencies": {
-    "@zeit/next-css": "^1.0.1",
     "next": "9.0.7",
     "next-images": "^1.2.0",
     "react": "16.10.2",
-    "react-dom": "16.10.2"
+    "react-dom": "16.10.2",
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
+    "babel-plugin-styled-components": "^1.10.6",
     "eslint": "^6.5.1",
     "eslint-config-prettier": "^6.5.0",
     "eslint-config-react-app": "^5.0.2",
