@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import logo from './logo.svg';
 
-const App = styled.div`
+const StyledApp = styled.div`
   text-align: center;
 `;
 
@@ -32,14 +32,18 @@ const AppLink = styled.a.attrs(() => ({
   color: #09d3ac;
 `;
 
-export default (props) => (
-  <App {...props}>
-    <AppHeader>
-      <AppLogo />
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <AppLink>Learn React</AppLink>
-    </AppHeader>
-  </App>
+const App = (props) => (
+  <div className="App">
+    <StyledApp>
+      <AppHeader>
+        <AppLogo />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <AppLink>Learn React</AppLink>
+      </AppHeader>
+    </StyledApp>
+  </div>
 );
+
+export default App;
