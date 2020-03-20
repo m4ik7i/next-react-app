@@ -4,21 +4,18 @@ import App from 'next/app';
 
 const theme = {};
 
-const GlobalStyle = createGlobalStyle`
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-`;
+const GlobalStyle = createGlobalStyle({
+  body: {
+    margin: 0,
+    fontFamily:
+      '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
+    '-webkit-font-smoothing': 'antialiased',
+    '-moz-osx-font-smoothing': 'grayscale',
+  },
+  code: {
+    fontFamily: 'source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace',
+  },
+});
 
 class MyApp extends App {
   render() {

@@ -9,10 +9,10 @@
     "lint": "eslint --ext .js,.jsx src"
   },
   "dependencies": {
-    "next": "9.0.7",
+    "next": "^9.0.7",
     "next-images": "^1.2.0",
-    "react": "16.10.2",
-    "react-dom": "16.10.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
     "styled-components": "^4.4.1"
   },
   "devDependencies": {

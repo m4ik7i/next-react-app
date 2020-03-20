@@ -6,7 +6,7 @@ const IndexPage = () => (
   <>
     <Head>
       <title>React App</title>
-      <link rel="icon" href="/static/favicon.ico" importance="low" />
+      <link rel="icon" href="/static/favicon.ico" />
     </Head>
     <App />
   </>
